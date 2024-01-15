@@ -1,0 +1,14 @@
+#image{
+    height: 95px;
+    width: 155px;
+
+   }
+body{
+    font-family: 'Barlow', sans-serif;
+}
+p{
+    font-weight: bold;
+}
+ul{
+    font-weight: bold;
+}

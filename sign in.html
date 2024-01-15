@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="log.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div>
+        <img src="images/logo2-removebg-preview.png" alt="" id="image">
+        <h1>Sign in to Chrome</h1>
+        <p id="ch">Use your Google Acount</p>
+        <form>
+    <input type="email" class="inbox" placeholder="Email or phone" id="bar" required="required" onblur="zee()">
+    <br>
+    <br>
+    <a href="forgotpassword.html" id="forgot">Forgot email?</a>
+    <br>
+    <br>
+    <br>
+    <a href="learn.html" id="learn">Learn More</a>
+    <br>
+    <br>
+    <br>
+    </form>
+    <a href="create.html" id="create">Create account</a>
+        
+    <a href="Next.html" id="next"><button>Next</button></a>
+        
+    </div>
+
+    <script>
+        function zee() {
+            
+            var ans=document.getElementById('bar').value
+            
+            switch (ans) {
+                case 'kass@gmail.com':
+                    alert('Welcome');
+                    break;
+            
+                default:
+                    alert('please enter corect username');
+                    break;
+            }
+        }
+        
+    </script>
+</body>
+
+</html>
